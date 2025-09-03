@@ -1,5 +1,5 @@
 {% set name = "itrails" %}
-{% set version = "1.2.1" %}
+{% set version = "2.0.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -37,6 +37,7 @@ requirements:
     - biopython >=1.84,<1.85
     - pyyaml >=6.0.2,<6.1
     - h5py
+    - ray-default
 
 test:
   requires:
@@ -47,6 +48,9 @@ test:
     - itrails-optimize --help
     - itrails-posterior --help
     - itrails-viterbi --help
+    - itrails-int-optimize --help
+    - itrails-int-viterbi --help
+    - itrails-int-posterior --help
 
 about:
   home: https://github.com/trails-phylogeny/itrails
