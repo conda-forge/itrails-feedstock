@@ -1,5 +1,5 @@
 {% set name = "itrails" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/trails-phylogeny/itrails/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 9e978f6ebd2e68c36fc5a05ab70176652cb940a1c7e3920a64e898df28f33d58
+  sha256: 0814721fb6b0973bf9156e984fe943e447da01be4b7d9ec23c9f945e691ca7a8
 
 build:
   noarch: python
@@ -37,6 +37,7 @@ requirements:
     - biopython >=1.84,<1.85
     - pyyaml >=6.0.2,<6.1
     - h5py
+    - pandas
     - ray-default
 
 test:
