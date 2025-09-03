@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/trails-phylogeny/itrails/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 0814721fb6b0973bf9156e984fe943e447da01be4b7d9ec23c9f945e691ca7a8
+  sha256: a0975cef83bf10f719934f6c0cc6e89ca7b9df49d734571325b716bad6731b6b
 
 build:
   noarch: python
