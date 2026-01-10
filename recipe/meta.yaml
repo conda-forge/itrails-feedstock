@@ -1,5 +1,5 @@
 {% set name = "itrails" %}
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/trails-phylogeny/itrails/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 6676e78a24095a73302a7c68091ecc6ee0019f44071464c81062da2d85393bb0
+  sha256: f85fdeb4bcac3798ab0295e410af8f70475b0b6c8f3d1e6b2586fcdae1a56c4c
 
 build:
   noarch: python
